@@ -1,0 +1,22 @@
+.background{
+    position: relative;
+    background-image: url('plastic-home.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+.centered-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+.centered-text p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
